@@ -84,6 +84,14 @@ const getHeader = (path: string) => {
                 bg: '#1A2855',
                 imagePath: '/src/assets/pages_header.jpg',
             };
+        case '/cadastro-de-dizimista':
+            return {
+                title: 'Cadastro de dizimista',
+                icon: <PiHeart />,
+                iconColor: 'red.700',
+                href: '/cadastro-de-dizimista',
+                bg: '#1A2855',
+            };
         default:
             return {
                 title: 'Home',

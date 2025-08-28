@@ -1,7 +1,7 @@
 import type { IQuickAccess } from '@/interfaces/IQuickAccess';
 import { LuInfo } from 'react-icons/lu';
 import { IoMdHeart } from 'react-icons/io';
-import { PiCross, PiSquaresFour, PiHandsPrayingFill } from 'react-icons/pi';
+import { PiCross, PiSquaresFour, PiHandsPrayingFill, PiHeartFill } from 'react-icons/pi';
 import { FaBookBible, FaPersonPraying } from 'react-icons/fa6';
 import { Flex, Heading, Stack } from '@chakra-ui/react';
 import { QuickAccessCard } from './quick-access-card';
@@ -55,6 +55,13 @@ const quickAccessLinks: IQuickAccess[] = [
         title: 'Como rezar o Santo Terço',
         url: 'https://formacao.cancaonova.com/espiritualidade/oracao/voce-sabe-como-rezar-o-santo-terco/',
         isExternal: true,
+    },
+    {
+        icon: <PiHeartFill />,
+        color: 'red.700',
+        title: 'Cadastro de dizimista',
+        url: '/cadastro-de-dizimista',
+        isExternal: false,
     },
 ];
 

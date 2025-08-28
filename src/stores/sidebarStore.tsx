@@ -56,6 +56,12 @@ const menuItems: IMenu[] = [
         icon: <PiSquaresFour />,
         iconActive: <PiSquaresFourFill />,
     },
+    {
+        title: 'Cadastro de dizimista',
+        href: '/cadastro-de-dizimista',
+        icon: <PiHeart />,
+        iconActive: <PiHeartFill />,
+    },
 ];
 
 export const sidebarStore = create<ISidebarState>((set) => ({

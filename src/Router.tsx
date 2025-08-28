@@ -8,6 +8,7 @@ import { TransparencyPortal } from './pages/transparency-portal';
 import { Pix } from './pages/pix';
 import { News } from './pages/news';
 import { NewsById } from './pages/news-by-id';
+import { Tithe } from './pages/tithe';
 
 export function Router() {
     return (
@@ -24,6 +25,7 @@ export function Router() {
                 <Route path="/faca-sua-doacao" element={<Pix />} />
                 <Route path="/avisos" element={<News />} />
                 <Route path="/avisos/:id" element={<NewsById />} />
+                <Route path="/cadastro-de-dizimista" element={<Tithe />} />
             </Route>
         </Routes>
     );
