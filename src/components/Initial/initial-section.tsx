@@ -7,6 +7,8 @@ import { CardSkeleton } from '../Card/CardSkeleton';
 import { MassLocationCard } from '../MassLocations/mass-location-card';
 import { useNavigate } from 'react-router-dom';
 import { Menu } from '../Header/Menu';
+import { LiveStreamCard } from './live-stream-card';
+import { HighlightedNewsCard } from './highlighted-news-card';
 
 const headerImage = '/src/assets/paroquia_header.jpg';
 const headerImageMobile = '/src/assets/paroquia_header_mobile.jpg';
@@ -49,9 +51,11 @@ export function InitialSection() {
                 </Box>
             </Flex>
             <Stack color={'white'} px={4} textAlign={'center'} gap={8}>
+                <LiveStreamCard />
                 <Heading as={'h2'} color={'#F69F53'} fontSize={'lg'}>
                     Rua Liberato Salzano Vieira da Cunha, 805 - São Luiz, Sapiranga - RS
                 </Heading>
+                <HighlightedNewsCard />
             </Stack>
             <HStack>
                 <Icon color={'white'} size={'lg'}>

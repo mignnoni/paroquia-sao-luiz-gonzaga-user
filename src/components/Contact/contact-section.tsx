@@ -4,6 +4,7 @@ import { FacebookCard } from './facebook-card';
 import { InstagramCard } from './instagram-card';
 import { SiteDioceseNH } from './site-diocese-nh';
 import { SiteVaticano } from './site-vaticano';
+import { YoutubeCard } from './youtube-card';
 
 export function ContactSection() {
     return (
@@ -14,6 +15,7 @@ export function ContactSection() {
             <Stack w="full" px={5} maxW={'500px'} gap={10}>
                 <WhatsappCard />
                 <FacebookCard />
+                <YoutubeCard />
                 <InstagramCard />
                 <SiteDioceseNH />
                 <SiteVaticano />
